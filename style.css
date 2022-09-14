@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+* {
+    padding:  0 ;
+}
+body {
+    font-family: Roboto;
+}
+main {
+    padding: 120px 30px;
+}
+h1,h2,h3{
+    font-weight:normal;
+    font-style: italic;
+    color: darkgrey ;
+
+}
+
+header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 20px 0px;
+    background-color: white;
+}
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+header ul li {
+    position: relative;
+    list-style: none;
+}
+header ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: darkgray;
+    font-weight: 500px;
+    transition: 0.6s;
+
+}
+ul li ul.dropdown li {
+    display: block;
+}
+ul li ul.dropdown {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover {
+    background: #00b39b;
+}
+ul li:hover ul.dropdown {
+    display: block;
+}
+.col-2 {
+    width: 477.5px;
+    height: 137px;
+    padding: 10px;
+}
+.grid1 {
+    display: grid;
+    grid-template-columns:50% 50%;
+    margin: 60px;
+    padding: 35px;
+}
+.col-30 {
+    background: #00b39b;
+    border-radius: 30px;
+    padding: 30px;
+}
+.col-31 {
+    background: blue;
+    border-radius: 30px;
+    padding: 30px;
+}
+.col-32 {
+    background:rgb(18, 18, 87);
+    border-radius: 30px;
+    padding: 30px;
+}
+.grid2 {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    padding: 35px;
+    margin: 60px;
+    grid-gap: 20px;
+}
+.grid3 {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-top: 100px;
+    padding: 50px;
+}
+.brands__logos {
+    list-style-type: none;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+}
+.flotte {
+    padding: 0px;
+    float: right;
+}
+.list {
+    padding: 0px;
+}
+.container1 {
+    background-color: aquamarine;
+    display:grid;
+    grid-template-columns: 40% 30% 30%;
+    padding: 20px;
+    grid-gap: 20px;
+}
+.titrec {
+    display: block;
+    margin: 30px 20px;
+}
+.carte {
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.offices__slider {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.office__image {
+    margin: 0;
+}
+.office {
+    padding: 20px;
+    border-radius: 15px;
+}
+.office__desc {
+    margin-top: 20px;
+    display: flexbox;
+}
+.btn {
+    padding: 10px;
+    margin: 5px;
+    border: 0px;
+    border-radius: 5px;
+    background-color:rgb(66, 116, 255);
+    cursor: pointer;
+}
